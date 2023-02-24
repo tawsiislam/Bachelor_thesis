@@ -1,6 +1,9 @@
 # Obtaining Pitch Control for Unmanned Aerial Vehicle Through System Identification
 ## Authors: Tawsiful Islam & Lucia Karens
-https://user-images.githubusercontent.com/62840946/221271334-3ae1f30a-0363-463d-901c-e425ac00d990.jpg
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/62840946/221271334-3ae1f30a-0363-463d-901c-e425ac00d990.jpg" width=50% height=50%>
+</p>
+
 
 ### Abstract (English): 
 This study aimed to develop and evaluate a method to obtain a proportional-integral-derivative (PID) controller. The controller is for a control surface that controls pitch motion, by using data from flight tests with an unmanned aerial vehicle (UAV). Finding a suitable method to develop the controllers is essential to make the UAV autonomous, whilst being stable and controllable. Before developing the PID, data from test flights were used to model a transfer function for the control surface with MATLAB's toolbox for system identification. Thereafter, using the transfer function, the PID was developed by using MATLAB’s toolbox for control systems. The whole method was evaluated by studying the rise time, settling time, and overshoot for the PID, and studying how well the transfer function fits with the flight data. The method of modeling the pitch motion with system identification and finding the PID gains has good potential to simplify the process of finding a PID controller. However, to acquire an accurate model for the pitch motion, which in turn can give a well-performing PID, an improved data sampling was suggested. Additionally, flight tests conducted before and after PID tuning, and in different conditions are recommended to be done in future studies. The flight test would work as a validation for the model to acquire a robust PID that performs as expected.
